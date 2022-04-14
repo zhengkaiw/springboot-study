@@ -14,7 +14,7 @@ public class SpringBootStudyApplication {
 
     public static void main(String[] args) {
         // 1.通过静态 run 方法
-//        SpringApplication.run(SpringBootStudyApplication.class, args);
+        SpringApplication.run(SpringBootStudyApplication.class, args);
 
         // 2.通过 api 调整行为
 //        SpringApplication application = new SpringApplication(SpringBootStudyApplication.class);
