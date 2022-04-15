@@ -39,6 +39,7 @@
             <artifactId>fastjson</artifactId>
             <version>1.2.80</version>
         </dependency>
+        <!-- 专门用来数据绑定的依赖 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
