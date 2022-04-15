@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "study.springboot",
+      "type": "com.zkw.springboot.study.config.SpringBootConfig",
+      "sourceType": "com.zkw.springboot.study.config.SpringBootConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "study.springboot.name",
+      "type": "java.lang.String",
+      "sourceType": "com.zkw.springboot.study.config.SpringBootConfig"
+    },
+    {
+      "name": "study.springboot.version",
+      "type": "java.lang.String",
+      "sourceType": "com.zkw.springboot.study.config.SpringBootConfig"
+    }
+  ],
+  "hints": []
+}
