@@ -11,7 +11,7 @@ import java.time.format.DateTimeFormatter;
  * SpringBoot 定时任务
  */
 @Slf4j
-@Component
+//@Component
 public class BootSchedule {
 
     private final DateTimeFormatter fmt = DateTimeFormatter.ofPattern("HH:mm:ss");
