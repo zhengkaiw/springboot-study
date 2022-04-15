@@ -1,12 +1,31 @@
 {
   "groups": [
     {
+      "name": "management.endpoint.datetime",
+      "type": "com.zkw.springboot.study.endpoint.DateTimeEndpoint",
+      "sourceType": "com.zkw.springboot.study.endpoint.DateTimeEndpoint"
+    },
+    {
       "name": "study.springboot",
       "type": "com.zkw.springboot.study.config.SpringBootConfig",
       "sourceType": "com.zkw.springboot.study.config.SpringBootConfig"
     }
   ],
   "properties": [
+    {
+      "name": "management.endpoint.datetime.cache.time-to-live",
+      "type": "java.time.Duration",
+      "description": "Maximum time that a response can be cached.",
+      "sourceType": "com.zkw.springboot.study.endpoint.DateTimeEndpoint",
+      "defaultValue": "0ms"
+    },
+    {
+      "name": "management.endpoint.datetime.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Whether to enable the datetime endpoint.",
+      "sourceType": "com.zkw.springboot.study.endpoint.DateTimeEndpoint",
+      "defaultValue": true
+    },
     {
       "name": "study.springboot.name",
       "type": "java.lang.String",

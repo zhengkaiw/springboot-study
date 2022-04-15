@@ -13,3 +13,18 @@ study:
   springboot:
     version: 2.6, 2.6.6
     name: study
+
+management:
+  endpoint:
+    shutdown:
+      enabled: true # 最特殊的监控端点
+  endpoints:
+    web:
+      exposure:
+        include: "*" # 打开所有的监控点
+
+info:
+  app:
+    name: springboot-study
+    groupId: com.zkw.springboot.study
+    version: 1.0-SNAPSHOT
